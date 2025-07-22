@@ -1,6 +1,6 @@
 # Hoodies E-commerce Landing Page
 
-A responsive e-commerce landing page for browsing and purchasing hoodies, built with HTML and CSS.
+A responsive e-commerce landing page for hoodies, built with HTML and CSS.
 
 ## Table of Contents
 
@@ -26,8 +26,8 @@ A responsive e-commerce landing page for browsing and purchasing hoodies, built 
 
 ### Screenshots
 
-| Desktop                                       | Tablet                                      | Mobile                                      |
-| --------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
+| Desktop | Tablet | Mobile |
+|------------|-----------|-----------|
 | ![Desktop](./screenshots/hoodies-desktop.png) | ![Tablet](./screenshots/hoodies-tablet.png) | ![Mobile](./screenshots/hoodies-mobile.png) |
 
 ### Links
