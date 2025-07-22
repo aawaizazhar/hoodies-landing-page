@@ -146,7 +146,7 @@ header {
 
 .header-img {
   border-radius: 100%;
-  background: url(images/oswaldo-ibanez-1NPUmTaiMeg-unsplash.jpg);
+  background: url(images/oswaldo-ibanez-1NPUmTaiMeg-unsplash.webp);
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
   background-position: top;
   background-size: cover;
@@ -162,7 +162,7 @@ header {
 }
 .section-one-img {
   border-radius: 100%;
-  background: url(images/gesphotoss-1i9K55ni5Dk-unsplash.jpg);
+  background: url(images/gesphotoss-1i9K55ni5Dk-unsplash.webp);
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
   background-position: top;
   background-size: cover;
@@ -417,17 +417,17 @@ header {
 }
 
 .img-one {
-  background: url(images/yogendra-singh-uWs_N5Dlyiw-unsplash.jpg);
+  background: url(images/yogendra-singh-uWs_N5Dlyiw-unsplash.webp);
   background-position: top;
   background-size: cover;
 }
 .img-two {
-  background: url(images/joshua-rondeau-xazIYnxpS2Q-unsplash.jpg);
+  background: url(images/joshua-rondeau-xazIYnxpS2Q-unsplash.webp);
   background-position: top;
   background-size: cover;
 }
 .img-three {
-  background: url(images/milan-popovic-kOnmHdLJTNI-unsplash.jpg);
+  background: url(images/milan-popovic-kOnmHdLJTNI-unsplash.webp);
   background-position: top;
   background-size: cover;
 }
