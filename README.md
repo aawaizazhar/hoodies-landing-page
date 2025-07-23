@@ -32,7 +32,7 @@ A responsive e-commerce landing page for hoodies, built with HTML and CSS.
 
 ### Links
 
-- **Live Site URL:** [https://your-hoodies-site.vercel.app](https://your-hoodies-site.vercel.app)
+- **Live Site URL:** [https://hoodies-landing-page.vercel.app/](https://hoodies-landing-page.vercel.app/)
 - **GitHub Repository:** [https://github.com/aawaizazhar/hoodies-landing-page](https://github.com/aawaizazhar/hoodies-landing-page)
 
 ## My Process
