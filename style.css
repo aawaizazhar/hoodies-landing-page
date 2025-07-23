@@ -1,12 +1,12 @@
 :root {
-  --main-color: #239b7e;
+  --main-color: #005646;
   --accent-color: #1a7a64;
   --main-font: "Playfair Display", serif;
   --secondary-color: #fff;
   --secondary-font: "Roboto", sans-serif;
   --light-bg: #f8f9fa;
   --text-color: #333;
-  --text-light: #716d6d;
+  --text-light: #5a5a5a;
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 15px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
@@ -403,25 +403,80 @@ header {
 }
 footer {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
-  margin-top: 5rem;
-  padding-top: 10rem;
-  padding-bottom: 3rem;
-  background: #000;
+  margin-top: 8rem;
+  padding: 6rem 2rem 4rem;
+  background: #0a192f;
   color: #fff;
+  font-family: var(--secondary-font);
+  line-height: 1.7;
+  position: relative;
 }
+
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--main-color), var(--accent-color));
+}
+
 .footer-heading {
-  font-family: var(--secondary-font);
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: 2rem;
-  margin-bottom: 3rem;
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  position: relative;
+  letter-spacing: 0.5px;
 }
+
+.footer-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -0.75rem;
+  left: 0;
+  width: 3rem;
+  height: 2px;
+  background: var(--main-color);
+}
+
 .footer-text {
-  font-family: var(--secondary-font);
   font-weight: 300;
-  margin-bottom: 0.85rem;
+  margin-bottom: 1.25rem;
+  color: #cbd5e1;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-text:last-child {
+  margin-bottom: 0;
+}
+
+a.footer-text:hover {
+  color: var(--main-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    padding: 4rem 2rem;
+    gap: 3rem;
+  }
+
+  .footer-heading {
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-text {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
 }
 @media (max-width: 1200px) {
   .customer-container {
